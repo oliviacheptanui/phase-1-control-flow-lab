@@ -1,11 +1,13 @@
 function scuberGreetingForFeet(){
-  // Write your code here!
+      expect(scuberGreetingForFeet(199)).to.equal('This one is on me!');
+      
 }
 
 function ternaryCheckCity(){
-  // Write your code here!
+ let ternaryCheckCity = "Ok, sounds good"
 }
 
 function switchOnCharmFromTip(){
-  // Write your code here!
+  expect(switchOnCharmFromTip('not as generous')).to.equal('Thank you.');
+  
 }
